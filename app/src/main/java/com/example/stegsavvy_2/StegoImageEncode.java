@@ -61,6 +61,8 @@ public class StegoImageEncode extends AppCompatActivity implements TextEncodingC
 
 //        EnableRuntimePermission();
 
+
+
         ifEncoded = findViewById(R.id.whether_encoded);
         imageView = findViewById(R.id.imageView);
         Button pick = findViewById(R.id.buttonCI);
@@ -70,6 +72,7 @@ public class StegoImageEncode extends AppCompatActivity implements TextEncodingC
         Button camera = findViewById(R.id.btnCam);
         EditText msg = findViewById(R.id.messageET);
 
+        //Changed the actionBar for each of the windows to get the title to be "StegSavvy instead of showing StegSavvy_2"
         //Change the ActionBar title to StegSavvy.
         ActionBar actionBar = getSupportActionBar();
         assert actionBar != null;

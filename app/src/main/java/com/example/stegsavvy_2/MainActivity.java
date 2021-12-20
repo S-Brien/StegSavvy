@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Changed the actionBar for each of the windows to get the title to be "StegSavvy instead of showing StegSavvy_2"
         //Change the ActionBar title to StegSavvy.
         ActionBar actionBar = getSupportActionBar();
         assert actionBar != null;

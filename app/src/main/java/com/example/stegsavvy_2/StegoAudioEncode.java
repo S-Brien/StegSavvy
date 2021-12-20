@@ -12,6 +12,7 @@ public class StegoAudioEncode extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_stego_audio_encode);
 
+        //Changed the actionBar for each of the windows to get the title to be "StegSavvy instead of showing StegSavvy_2"
         //Change the ActionBar title to StegSavvy.
         ActionBar actionBar = getSupportActionBar();
         assert actionBar != null;

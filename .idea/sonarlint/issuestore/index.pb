@@ -17,17 +17,3 @@ P
  app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 A
 gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
-h
-8app/src/main/java/com/example/stegsavvy_2/Dashboard.java,5\e\5ef8ab76413bec3363f467d698105806e82a0712
-k
-;app/src/main/java/com/example/stegsavvy_2/RegisterUser.java,b\9\b94c773046344bef34a7d0acea419e63120f8e8a
-o
-?app/src/main/java/com/example/stegsavvy_2/StegoAudioEncode.java,e\e\ee556fc5de2518a0778debe770f3c685b0444b50
-o
-?app/src/main/java/com/example/stegsavvy_2/StegoImageEncode.java,9\e\9edc82f89ac937c249e62cd61469aa7d1ed74c81
-o
-?app/src/main/java/com/example/stegsavvy_2/StegoVideoEncode.java,6\2\62100f8268dfb4ff21dd25e0a2ad4bd3492d8725
-k
-;app/src/main/java/com/example/stegsavvy_2/MainActivity.java,7\0\70c9e9f0844a6897eff2647acd064c34aa1a3a08
-l
-<app/src/main/java/com/example/stegsavvy_2/PasswordReset.java,e\6\e67467381a8bcc2753b8b8ef59fcac34e3da2b51
