@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="PI">Pick Image</string>
+    <string name="cam">Camera</string>
+    <string name="msgEn">Message to encode :</string>
+    <string name="msgET">Type Message here</string>
+    <string name="enBtn">Encode Image</string>
+    <string name="dlBtn">Download Image</string>
+    <string name="logBtn">Logout</string>
+    <string name="imgBtn">Image Encode</string>
+    <string name="audBtn">Audio Encode</string>
+    <string name="vidBtn">Video Encode</string>
+    <string name="registerBtn">Register</string>
+    <string name="memRegTV">Already a member? Login here</string>
+    <string name="regName">Name</string>
+
+    <!-- Main Activity -->
+    <string name="tries">Iarrachtaí atá Fós: </string>
+    <string name="email">Ríomhphost</string>
+    <string name="password">Pasfhocal</string>
+    <string name="loginBtn">Logáil isteach</string>
+    <string name="regTV">Cruthaigh Cuntas</string>
+    <string name="forPassTV">Dearmad ar pasfhocal</string>
+    <string name="clBtn">Athraigh Teanga</string>
+    <string name="StegTitle">StegSavvy</string>
+</resources>

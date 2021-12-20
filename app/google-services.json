@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "80237237939",
+    "project_id": "stegsav",
+    "storage_bucket": "stegsav.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80237237939:android:38f313e8f92501ee1982c6",
+        "android_client_info": {
+          "package_name": "com.example.stegsavvy_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80237237939-0h2vmb92p0nusl58defiec3qe05mao11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAofT5HcGQkNmaK53lMoeIZhEo_AM_Kv-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80237237939-0h2vmb92p0nusl58defiec3qe05mao11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

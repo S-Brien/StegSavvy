@@ -1,0 +1,13 @@
+
+B
+java:S1659"'Declare "btnCancel" on a separate line.( Ğ¢ıÿÿÿÿ
+s
+java:S1450"XRemove the "btnCancel" field and declare it as a local variable in the relevant methods.( Ğ¢ıÿÿÿÿ
+t
+java:S1450"YRemove the "btnpassRes" field and declare it as a local variable in the relevant methods.( Ğ¢ıÿÿÿÿ
+>
+java:S16043"(Make this anonymous inner class a lambda(‰š´¢
+>
+java:S1604'"(Make this anonymous inner class a lambda(Ì·
+=
+java:S1604G"(Make this anonymous inner class a lambda(µ¶é)

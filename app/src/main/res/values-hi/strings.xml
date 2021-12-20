@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="PI">Pick Image</string>
+    <string name="cam">Camera</string>
+    <string name="msgEn">Message to encode :</string>
+    <string name="msgET">Type Message here</string>
+    <string name="enBtn">Encode Image</string>
+    <string name="dlBtn">Download Image</string>
+    <string name="logBtn">Logout</string>
+    <string name="imgBtn">Image Encode</string>
+    <string name="audBtn">Audio Encode</string>
+    <string name="vidBtn">Video Encode</string>
+    <string name="registerBtn">Register</string>
+    <string name="memRegTV">Already a member? Login here</string>
+    <string name="regName">Name</string>
+
+    <!-- Main Activity -->
+    <string name="tries">प्रयास बाकी है : </string>
+    <string name="email">ईमेल</string>
+    <string name="password">कुंजिका</string>
+    <string name="loginBtn">लॉग इन करें</string>
+    <string name="regTV">खाता बनाएं</string>
+    <string name="forPassTV">पासवर्ड भूल गए</string>
+    <string name="clBtn">भाषा बदलो</string>
+    <string name="StegTitle">StegSavvy</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="PI">Pick Image</string>
+    <string name="cam">Camera</string>
+    <string name="msgEn">Message to encode :</string>
+    <string name="msgET">Type Message here</string>
+    <string name="enBtn">Encode Image</string>
+    <string name="dlBtn">Download Image</string>
+    <string name="logBtn">Logout</string>
+    <string name="imgBtn">Image Encode</string>
+    <string name="audBtn">Audio Encode</string>
+    <string name="vidBtn">Video Encode</string>
+    <string name="registerBtn">Register</string>
+    <string name="memRegTV">Already a member? Login here</string>
+    <string name="regName">Name</string>
+
+    <!-- Main Activity -->
+    <string name="tries">Tentatives restantes : </string>
+    <string name="email">E-mail</string>
+    <string name="password">Mot de passe</string>
+    <string name="loginBtn">Connexion</string>
+    <string name="regTV">Créer un compte</string>
+    <string name="forPassTV">Mot de passe oublié</string>
+    <string name="clBtn">Changer de langue</string>
+    <string name="StegTitle">StegSavvy</string>
+</resources>

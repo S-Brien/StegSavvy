@@ -1,0 +1,32 @@
+
+a
+java:S1659!"FDeclare "fPassword" and all following declarations on a separate line.(¦·†“ÿÿÿÿÿ
+=
+java:S1659""'Declare "lPassword" on a separate line.(ú•áÏ
+>
+java:S1659&")Declare "chanLangBtn" on a separate line.(°Üîv
+o
+java:S1450&"ZRemove the "chanLangBtn" field and declare it as a local variable in the relevant methods.(°Üîv
+s
+java:S1450!"XRemove the "fPassword" field and declare it as a local variable in the relevant methods.(¦·†“ÿÿÿÿÿ
+y
+java:S1450!"WRemove the "register" field and declare it as a local variable in the relevant methods.(¦·†“ÿÿÿÿÿ8³¸ÿ©Ý/
+Q
+java:S1874'"6Remove this use of "ProgressDialog"; it is deprecated.(·á…Çùÿÿÿÿ
+X	java:S125="<This block of commented-out lines of code should be removed.(·«‚Ã8Œ˜ÿ©Ý/
+X
+java:S1874?"6Remove this use of "ProgressDialog"; it is deprecated.(¿Ú•ðúÿÿÿÿ8˜ÿ©Ý/
+T
+java:S1874i"2Remove this use of "setMessage"; it is deprecated.(¦ä•Öýÿÿÿÿ8 ˜ÿ©Ý/
+E
+java:S1874å".Remove this use of "locale"; it is deprecated.(ÛªÂ
+^
+java:S1874æ";Remove this use of "updateConfiguration"; it is deprecated.(ß éÖüÿÿÿÿ8°˜ÿ©Ý/
+g
+java:S3252ï"DUse static access with "android.content.Context" for "MODE_PRIVATE".(ôªú•üÿÿÿÿ8²˜ÿ©Ý/
+J
+java:S1604J"(Make this anonymous inner class a lambda(£è· ùÿÿÿÿ8´˜ÿ©Ý/
+J
+java:S1604T"(Make this anonymous inner class a lambda(Û¾Þ÷úÿÿÿÿ8µ˜ÿ©Ý/
+K
+java:S1604˜"(Make this anonymous inner class a lambda(âêÁøÿÿÿÿ8µ˜ÿ©Ý/

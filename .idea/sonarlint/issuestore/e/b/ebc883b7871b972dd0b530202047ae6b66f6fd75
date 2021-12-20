@@ -1,0 +1,24 @@
+
+U
+java:S1118":Add a private constructor to hide the implicit public one.(¹‹ó¿ıÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(±‘“•ùÿÿÿÿ
+C
+java:S1659/"(Declare "chunkWidth" on a separate line.(Ô¬»¾ùÿÿÿÿ
+L
+java:S1874x"1Remove this use of "ARGB_4444"; it is deprecated.(ëµ÷ÿÿÿÿÿ
+k
+java:S1215œ"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(€êÜ
+k
+java:S1215"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“
+3
+java:S1116ì"Remove this empty statement.(æöÇ
+f	java:S1179"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÍúµ
+f	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À…„á
+f	java:S117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÜ€
+f	java:S117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£À‘Ù
+k	java:S117h"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±‘‘Êÿÿÿÿÿ
+k	java:S117h"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±‘‘Êÿÿÿÿÿ
+f	java:S117n"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥–Ê¿
+k	java:S117o"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Ù÷øøÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²ÒáÀøÿÿÿÿ

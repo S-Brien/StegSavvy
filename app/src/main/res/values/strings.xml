@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name" translatable="false">StegSavvy_2</string>
+    <string name="stegsavvy" translatable="false">StegSavvy</string>
+    <string name="PI">Pick Image</string>
+    <string name="cam">Camera</string>
+    <string name="msgEn">Message to encode :</string>
+    <string name="msgET">Type Message here</string>
+    <string name="enBtn">Encode Image</string>
+    <string name="dlBtn">Download Image</string>
+    <string name="logBtn">Logout</string>
+    <string name="imgBtn">Image Encode</string>
+    <string name="audBtn">Audio Encode</string>
+    <string name="vidBtn">Video Encode</string>
+    <string name="registerBtn">Register</string>
+    <string name="memRegTV">Already a member? Login here</string>
+    <string name="regName">Name</string>
+
+    <!-- Main Activity -->
+    <string name="tries">Attempts Remaining:</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="loginBtn">Login</string>
+    <string name="regTV">Create Account</string>
+    <string name="forPassTV">Forgot Password</string>
+    <string name="clBtn">Change Language</string>
+    <string name="StegTitle">StegSavvy</string>
+
+    <!-- DashBoard -->
+
+
+    <!-- Register Page-->
+
+
+    <!-- Forgot Password Page-->
+
+
+    <!-- Image Stego Page-->
+
+
+    <!-- Audio Stego Page-->
+
+
+    <!-- Video Stego Page-->
+
+</resources>
