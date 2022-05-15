@@ -21,4 +21,6 @@
     <string name="memRegTV">Already a member? Login here</string>
     <string name="regName">Name</string>
     <string name="StegTitle">StegSavvy</string>
+    <string name="conTitle">Con</string>
+    <string name="dI">Image</string>
 </resources>

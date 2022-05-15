@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".StegoImageEncode">
+    tools:context=".StegoImageEncode"
+    android:background="#e5e4e2">
 
     <TextView
-        android:layout_width="283dp"
-        android:layout_height="53dp"
-        android:background="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/stegsavvy"
         android:textAlignment="center"
-        android:textColor="#9afe00"
+        android:textColor="@color/black"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -25,12 +25,13 @@
         android:id="@+id/buttonCI"
         android:layout_width="wrap_content"
         android:layout_height="51dp"
-        android:text="Pick Video"
+        android:text="@string/vidPick"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.151" />
+        app:layout_constraintVertical_bias="0.129" />
 
     <Button
         android:id="@+id/btnCam"
@@ -38,27 +39,39 @@
         android:layout_height="42dp"
         android:text="@string/cam"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintHorizontal_bias="0.471"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.249" />
+        app:layout_constraintVertical_bias="0.217" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="285dp"
-        android:layout_height="220dp"
+    <VideoView
+        android:id="@+id/vView"
+        android:layout_width="318dp"
+        android:layout_height="294dp"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
         android:layout_marginStart="63dp"
         android:layout_marginEnd="63dp"
         app:layout_constraintBottom_toTopOf="@+id/messageET"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonCI"
-        app:layout_constraintVertical_bias="0.772"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@+id/btnCam"
+        app:layout_constraintVertical_bias="0.406" />
+
+    <TextView
+        android:id="@+id/length"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.608" />
+
+
 
     <TextView
         android:id="@+id/messageTV"
@@ -70,11 +83,11 @@
         android:textColor="@color/black"
         android:textSize="13sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintHorizontal_bias="0.105"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.788" />
+        app:layout_constraintVertical_bias="0.81" />
 
     <EditText
         android:id="@+id/messageET"
@@ -83,17 +96,17 @@
         android:hint="@string/msgET"
         android:textColorHint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.779"
+        app:layout_constraintHorizontal_bias="0.791"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.781" />
+        app:layout_constraintVertical_bias="0.805" />
 
     <Button
         android:id="@+id/btnEncode"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Encode Video"
+        android:text="@string/encVid"
         android:textSize="11sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -106,7 +119,7 @@
         android:id="@+id/btnDL"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Download Video"
+        android:text="@string/vidDl"
         android:textSize="11sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.94"
@@ -126,18 +139,6 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.995" />
-
-    <TextView
-        android:id="@+id/whether_encoded"
-        android:layout_width="70dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.466"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        android:textColor="@color/black"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.713" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

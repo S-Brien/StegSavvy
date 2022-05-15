@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".StegoImageEncode">
+    tools:context=".StegoImageEncode"
+    android:background="#e5e4e2">
 
     <TextView
         android:layout_width="283dp"
         android:layout_height="53dp"
-        android:background="@color/black"
         android:text="@string/stegsavvy"
         android:textAlignment="center"
-        android:textColor="#9afe00"
+        android:textColor="@color/black"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"

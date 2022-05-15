@@ -1,18 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="PI">Pick Image</string>
-    <string name="cam">Camera</string>
+
+    <string name="title_activity_stego_image_decode">StegoImageDecode</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_image_dash">ImageDash</string>
+
+    <string name="PI">اختر صورة</string>
+    <string name="cam">الة تصوير</string>
     <string name="msgEn">Message to encode :</string>
-    <string name="msgET">Type Message here</string>
-    <string name="enBtn">Encode Image</string>
-    <string name="dlBtn">Download Image</string>
-    <string name="logBtn">Logout</string>
-    <string name="imgBtn">Image Encode</string>
-    <string name="audBtn">Audio Encode</string>
-    <string name="vidBtn">Video Encode</string>
-    <string name="registerBtn">Register</string>
-    <string name="memRegTV">Already a member? Login here</string>
-    <string name="regName">Name</string>
+    <string name="msgET">رسالة لتشفير:</string>
+    <string name="enBtn">تشفير الصورة</string>
+    <string name="dlBtn">تنزيل الصورة</string>
+    <string name="logBtn">تسجيل خروج</string>
+    <string name="imgBtn">تشفير الصورة</string>
+    <string name="audBtn">ترميز الصوت</string>
+    <string name="vidBtn">تشفير الفيديو</string>
+    <string name="registerBtn">يسجل</string>
+    <string name="memRegTV">عضوا فعلا؟ تسجيل الدخول من هنا</string>
+    <string name="regName">اسم</string>
 
 
     <!-- Main Activity -->
@@ -24,4 +37,49 @@
     <string name="forPassTV">هل نسيت كلمة السر</string>
     <string name="clBtn">تغيير اللغة</string>
     <string name="StegTitle">StegSavvy</string>
+
+
+
+    <!-- Contact us page-->
+    <string name="conTitle">اتصل بنا</string>
+    <string name="eName">أدخل أسمك</string>
+    <string name="cEmail">قم بتأكيد بريدك الإلكتروني</string>
+    <string name="cMessage">اكتب الرسالة هنا</string>
+    <string name="cSend">يرسل</string>
+
+
+    <!-- DashBoard -->
+    <string name="dI">صورة</string>
+    <string name="imDec">فك شفرة الصورة</string>
+
+    <!-- Forgot Password Page-->
+    <string name="prEmail">أدخل عنوان بريدك الالكتروني</string>
+    <string name="prReset">إعادة تعيين كلمة المرور</string>
+    <string name="cancel">يلغي</string>
+
+    <!-- Share Page -->
+    <string name="sShare">شارك</string>
+    <string name="sAttach">المرفق</string>
+
+    <!-- Audio Encode -->
+    <string name="aPick">اختر ملف صوتي</string>
+    <string name="aRec">مسجل الصوت</string>
+    <string name="aName">اسم الصوت</string>
+    <string name="aPlayPause">تشغيل / وقفة</string>
+    <string name="encAud">تشفير الصوت</string>
+    <string name="aDl">تنزيل الصوت</string>
+
+    <!-- Image Decode -->
+    <string name="decPI">اختر صورة</string>
+    <string name="decImage">فك ترميز الصورة</string>
+    <string name="imageDec">فك:</string>
+    <string name="decET">رسالة مفككة</string>
+
+    <!-- Video Stego Page-->
+    <string name="vidPick">اختر فيديو</string>
+    <string name="encVid">تشفير الفيديو</string>
+    <string name="vidDl">تحميل الفيديو</string>
+
+    <!-- Menu -->
+    <string name="shareFile">مشاركة الملفات</string>
 </resources>

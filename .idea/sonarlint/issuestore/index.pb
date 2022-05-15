@@ -1,10 +1,4 @@
 
-<
-build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
-@
-app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
-?
-settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
 ”
 dStegoLibrary/src/main/java/com/example/stegolibrary/Text/AsyncTaskCallback/TextEncodingCallback.java,e\2\e232ce2b224bd50f0531ccb0f66d0b54183b124f
 v
@@ -13,17 +7,17 @@ v
 FStegoLibrary/src/main/java/com/example/stegolibrary/Utils/Utility.java,e\b\ebc883b7871b972dd0b530202047ae6b66f6fd75
 u
 EStegoLibrary/src/main/java/com/example/stegolibrary/Utils/Crypto.java,d\4\d4bec1962fff1e42c24b470796c3bd0b65f19af0
-P
- app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 A
 gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
+n
+>app/src/main/java/com/example/stegsavvy_2/Second2Fragment.java,c\1\c1f16d5a3540bd60e99bf81d748434f4709e2b4b
 k
-;app/src/main/java/com/example/stegsavvy_2/RegisterUser.java,b\9\b94c773046344bef34a7d0acea419e63120f8e8a
-l
-<app/src/main/java/com/example/stegsavvy_2/PasswordReset.java,e\6\e67467381a8bcc2753b8b8ef59fcac34e3da2b51
-o
-?app/src/main/java/com/example/stegsavvy_2/StegoImageEncode.java,9\e\9edc82f89ac937c249e62cd61469aa7d1ed74c81
-o
-?app/src/main/java/com/example/stegsavvy_2/StegoAudioEncode.java,e\e\ee556fc5de2518a0778debe770f3c685b0444b50
-o
-?app/src/main/java/com/example/stegsavvy_2/StegoVideoEncode.java,6\2\62100f8268dfb4ff21dd25e0a2ad4bd3492d8725
+;app/src/main/java/com/example/stegsavvy_2/SendMailTask.java,3\2\328b156a34f631c61d49b2ad7111b167e6c16794
+A
+config.properties,5\b\5b4197fb87e6e5ff44afbf358a3bd23a35f56456
+?
+settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
+m
+=app/src/main/java/com/example/stegsavvy_2/First2Fragment.java,2\6\26308e77c2f8a29e059945adc0e5b636f6f4f5ac
+d
+4app/src/main/java/com/example/stegsavvy_2/GMail.java,b\2\b2373a824c4e80018b8e1c80f5d267ac84e1eee6

@@ -150,69 +150,66 @@ public class MainActivity extends AppCompatActivity{
         final String[] listItems = {"عربى","বাংলা", "Deutsche", "Española", "français", "Gaeilge", "हिन्दी", "русский", "中国人", "Português", "English"};
         AlertDialog.Builder lBuilder = new AlertDialog.Builder(MainActivity.this);
         lBuilder.setTitle("Please choose your Language!!");
-        lBuilder.setSingleChoiceItems(listItems, -1, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-                if(i==0){
-                    //choose Arabic
-                    setLocale("ar");
-                    recreate();
-                }
-                else if(i==1){
-                    //choose Bengali
-                    setLocale("bn");
-                    recreate();
-                }
-                else if(i==2){
-                    //choose German
-                    setLocale("de");
-                    recreate();
-                }
-                else if(i==3){
-                    //choose Spanish
-                    setLocale("es");
-                    recreate();
-                }
-                else if(i==4){
-                    //choose French
-                    setLocale("fr");
-                    recreate();
-                }
-                else if(i==5){
-                    //choose Irish
-                    setLocale("ga");
-                    recreate();
-                }
-                else if(i==6){
-                    //choose Hindi
-                    setLocale("hi");
-                    recreate();
-                }
-                else if(i==7){
-                    //choose Russian
-                    setLocale("ru");
-                    recreate();
-                }else if(i==8){
-                    //choose Chinese
-                    setLocale("zh");
-                    recreate();
-                }
-                else if(i==9){
-                    //choose Portuguese
-                    setLocale("pt");
-                    recreate();
-                }
-                else if(i==10){
-                    //choose English
-                    setLocale("en");
-                    recreate();
-                }
-
-                // Now after the Language is selected we need to get rid of it.
-                dialogInterface.dismiss();
-
-
+        lBuilder.setSingleChoiceItems(listItems, -1, (dialogInterface, i) -> {
+            if(i==0){
+                //choose Arabic
+                setLocale("ar");
+                recreate();
             }
+            else if(i==1){
+                //choose Bengali
+                setLocale("bn");
+                recreate();
+            }
+            else if(i==2){
+                //choose German
+                setLocale("de");
+                recreate();
+            }
+            else if(i==3){
+                //choose Spanish
+                setLocale("es");
+                recreate();
+            }
+            else if(i==4){
+                //choose French
+                setLocale("fr");
+                recreate();
+            }
+            else if(i==5){
+                //choose Irish
+                setLocale("ga");
+                recreate();
+            }
+            else if(i==6){
+                //choose Hindi
+                setLocale("hi");
+                recreate();
+            }
+            else if(i==7){
+                //choose Russian
+                setLocale("ru");
+                recreate();
+            }else if(i==8){
+                //choose Chinese
+                setLocale("zh");
+                recreate();
+            }
+            else if(i==9){
+                //choose Portuguese
+                setLocale("pt");
+                recreate();
+            }
+            else if(i==10){
+                //choose English
+                setLocale("en");
+                recreate();
+            }
+
+            // Now after the Language is selected we need to get rid of it.
+            dialogInterface.dismiss();
+
+
         });
 
         AlertDialog dialog = lBuilder.create();

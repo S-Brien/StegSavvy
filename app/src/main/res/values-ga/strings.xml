@@ -1,18 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="PI">Pick Image</string>
-    <string name="cam">Camera</string>
-    <string name="msgEn">Message to encode :</string>
-    <string name="msgET">Type Message here</string>
-    <string name="enBtn">Encode Image</string>
-    <string name="dlBtn">Download Image</string>
-    <string name="logBtn">Logout</string>
-    <string name="imgBtn">Image Encode</string>
-    <string name="audBtn">Audio Encode</string>
-    <string name="vidBtn">Video Encode</string>
-    <string name="registerBtn">Register</string>
-    <string name="memRegTV">Already a member? Login here</string>
-    <string name="regName">Name</string>
+
+    <string name="title_activity_stego_image_decode">StegoImageDecode</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_image_dash">ImageDash</string>
+
+    <string name="PI">Pioc Íomhá</string>
+    <string name="cam">Ceamara</string>
+    <string name="msgEn">Teachtaireacht le hionchódú :</string>
+    <string name="msgET">Clóscríobh Teachtaireacht anseo</string>
+    <string name="enBtn">Ionchódaigh Íomhá</string>
+    <string name="dlBtn">Íosluchtaigh íomhá</string>
+    <string name="logBtn">Logáil Amach</string>
+    <string name="imgBtn">Ionchódú Íomhá</string>
+    <string name="audBtn">Ionchódú Fuaime</string>
+    <string name="vidBtn">Ionchódú Físeáin</string>
+    <string name="registerBtn">Clár</string>
+    <string name="memRegTV">Ina bhall cheana féin? Logáil isteach anseo</string>
+    <string name="regName">Ainm</string>
 
     <!-- Main Activity -->
     <string name="tries">Iarrachtaí atá Fós: </string>
@@ -23,4 +36,48 @@
     <string name="forPassTV">Dearmad ar pasfhocal</string>
     <string name="clBtn">Athraigh Teanga</string>
     <string name="StegTitle">StegSavvy</string>
+
+    <!-- Contact us page-->
+    <string name="conTitle">Déan Teagmháil Linn</string>
+    <string name="eName">Iontráil D\'Ainm</string>
+    <string name="cEmail">Deimhnigh Do Ríomhphost</string>
+    <string name="cMessage">Clóscríobh Teachtaireacht Anseo</string>
+    <string name="cSend">Seol</string>
+
+    <!-- DashBoard -->
+    <string name="dI">Íomha</string>
+    <string name="imDec">Díchódaithe Íomhá</string>
+
+    <!-- Forgot Password Page-->
+    <string name="prEmail">Cuir isteach do sheoladh ríomhphoist</string>
+    <string name="prReset">Athshocraigh Pasfhocal</string>
+    <string name="cancel">Cealaigh</string>
+
+    <!-- Share Page -->
+    <string name="sShare">Comhroinn</string>
+    <string name="sAttach">Ceangaltán</string>
+
+    <!-- Audio Encode -->
+    <string name="aPick">Roghnaigh Comhad Fuaime</string>
+    <string name="aRec">Taifeadán Fuaime</string>
+    <string name="aName">Ainm Fuaime</string>
+    <string name="aPlayPause">Seinn / Sos</string>
+    <string name="encAud">Ionchódaigh Fuaime</string>
+    <string name="aDl">Íoslódáil an fuaimrian</string>
+
+    <!-- Image Decode -->
+    <string name="decPI">Pioc Íomhá</string>
+    <string name="decImage">Díchódaigh Íomhá</string>
+    <string name="imageDec">Díchódaithe:</string>
+    <string name="decET">Teachtaireacht Díchódaithe</string>
+
+    <!-- Video Stego Page-->
+    <string name="vidPick">Pioc Físeán</string>
+    <string name="encVid">Físeán ionchódú</string>
+    <string name="vidDl">Íosluchtaigh vidio</string>
+
+    <!-- Menu -->
+    <string name="shareFile">Roinn Comhad</string>
+
+
 </resources>

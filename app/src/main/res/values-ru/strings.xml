@@ -1,18 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="PI">Pick Image</string>
-    <string name="cam">Camera</string>
-    <string name="msgEn">Message to encode :</string>
-    <string name="msgET">Type Message here</string>
-    <string name="enBtn">Encode Image</string>
-    <string name="dlBtn">Download Image</string>
-    <string name="logBtn">Logout</string>
-    <string name="imgBtn">Image Encode</string>
-    <string name="audBtn">Audio Encode</string>
-    <string name="vidBtn">Video Encode</string>
-    <string name="registerBtn">Register</string>
-    <string name="memRegTV">Already a member? Login here</string>
-    <string name="regName">Name</string>
+
+    <string name="title_activity_stego_image_decode">StegoImageDecode</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_image_dash">ImageDash</string>
+
+    <string name="PI">Выбрать изображение</string>
+    <string name="cam">Камера</string>
+    <string name="msgEn">Сообщение для кодирования:</string>
+    <string name="msgET">Введите сообщение здесь</string>
+    <string name="enBtn">Кодировать изображение</string>
+    <string name="dlBtn">Скачать изображение</string>
+    <string name="logBtn">Выйти</string>
+    <string name="imgBtn">Кодирование изображения</string>
+    <string name="audBtn">Кодирование аудио</string>
+    <string name="vidBtn">Кодирование видео</string>
+    <string name="registerBtn">регистр</string>
+    <string name="memRegTV">Уже вступил? Войти здесь</string>
+    <string name="regName">Имя</string>
 
 
     <!-- Main Activity -->
@@ -24,5 +37,47 @@
     <string name="forPassTV">Забыли пароль</string>
     <string name="clBtn">Изменить язык</string>
     <string name="StegTitle">StegSavvy</string>
+
+    <!-- Contact us page-->
+    <string name="conTitle">Связаться с нами</string>
+    <string name="eName">Введите ваше имя</string>
+    <string name="cEmail">Подтвердите ваш адрес электронной почты</string>
+    <string name="cMessage">Введите сообщение здесь</string>
+    <string name="cSend">Отправлять</string>
+
+    <!-- DashBoard -->
+    <string name="dI">Изображение</string>
+    <string name="imDec">Декодирование изображения</string>
+
+    <!-- Forgot Password Page-->
+    <string name="prEmail">Введите ваш адрес электронной почты</string>
+    <string name="prReset">Сброс пароля</string>
+    <string name="cancel">Отмена</string>
+
+    <!-- Share Page -->
+    <string name="sShare">Делиться</string>
+    <string name="sAttach">Вложение</string>
+
+    <!-- Audio Encode -->
+    <string name="aPick">Выберите аудиофайл</string>
+    <string name="aRec">Диктофон</string>
+    <string name="aName">Имя аудио</string>
+    <string name="aPlayPause">Воспроизведение / Пауза</string>
+    <string name="encAud">Кодировать аудио</string>
+    <string name="aDl">Скачать аудио</string>
+
+    <!-- Image Decode -->
+    <string name="decPI">Выбрать изображение</string>
+    <string name="decImage">Декодировать изображение</string>
+    <string name="imageDec">Расшифровано:</string>
+    <string name="decET">Расшифрованное сообщение</string>
+
+    <!-- Video Stego Page-->
+    <string name="vidPick">Выбрать видео</string>
+    <string name="encVid">Кодировать видео</string>
+    <string name="vidDl">Скачать видео</string>
+
+    <!-- Menu -->
+    <string name="shareFile">Поделиться файлом</string>
 
 </resources>

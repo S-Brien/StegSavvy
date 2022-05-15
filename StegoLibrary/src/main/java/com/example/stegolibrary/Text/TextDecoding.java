@@ -8,7 +8,6 @@ import android.util.Log;
 
 import com.example.stegolibrary.Text.AsyncTaskCallback.TextDecodingCallback;
 import com.example.stegolibrary.Utils.Utility;
-import com.example.stegolibrary.Text.AsyncTaskCallback.TextDecodingCallback;
 
 import java.util.List;
 
@@ -96,27 +95,27 @@ public class TextDecoding extends AsyncTask<ImageSteganography, Void, ImageStega
             }
 
             //decrypting the encoded message
-            String decrypted_message = ImageSteganography.decryptMessage(decoded_message, imageSteganography.getSecret_key());
+            String decrypted_message = ImageSteganography.decryptMessage(decoded_message);
             Log.d(TAG, "Decrypted message : " + decrypted_message);
 
-            //If decrypted_message is null it means that the secret key is wrong otherwise secret key is right.
-            if (!Utility.isStringEmpty(decrypted_message)) {
-
-                //secret key provided is right
-                result.setSecretKeyWrong(false);
-
-                // Set Results
-
-                result.setMessage(decrypted_message);
-
-
-                //free memory
-                for (Bitmap bitm : srcEncodedList)
-                    bitm.recycle();
-
-                //Java Garbage Collector
-                System.gc();
-            }
+//            //If decrypted_message is null it means that the secret key is wrong otherwise secret key is right.
+//            if (!Utility.isStringEmpty(decrypted_message)) {
+//
+//                //secret key provided is right
+//                result.setSecretKeyWrong(false);
+//
+//                // Set Results
+//
+//                result.setMessage(decrypted_message);
+//
+//
+//                //free memory
+//                for (Bitmap bitm : srcEncodedList)
+//                    bitm.recycle();
+//
+//                //Java Garbage Collector
+//                System.gc();
+//            }
         }
 
         return result;

@@ -24,22 +24,66 @@
     <string name="forPassTV">Forgot Password</string>
     <string name="clBtn">Change Language</string>
     <string name="StegTitle">StegSavvy</string>
+    <string name="title_activity_stego_image_decode">StegoImageDecode</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_image_dash">ImageDash</string>
+
 
     <!-- DashBoard -->
-
-
-    <!-- Register Page-->
-
+    <string name="dI">Image</string>
+    <string name="imDec">Image Decode</string>
 
     <!-- Forgot Password Page-->
+    <string name="prEmail">Enter your email address</string>
+    <string name="prReset">Reset Password</string>
+    <string name="cancel">Cancel</string>
 
 
     <!-- Image Stego Page-->
 
 
-    <!-- Audio Stego Page-->
-
-
     <!-- Video Stego Page-->
+    <string name="vidPick">Pick Video</string>
+    <string name="encVid">Encode Video</string>
+    <string name="vidDl">Download Video</string>
+
+    <!-- Contact us page-->
+    <string name="conTitle">Contact Us</string>
+    <string name="eName">Enter Your Name</string>
+    <string name="cEmail">Confirm Your Email</string>
+    <string name="cMessage">Type Message Here</string>
+    <string name="cSend">Send</string>
+
+    <!-- Share Page -->
+    <string name="sShare">Share</string>
+    <string name="sAttach">Attachment</string>
+
+    <!-- Audio Encode -->
+    <string name="aPick">Pick Audio File</string>
+    <string name="aRec">Audio Recorder</string>
+    <string name="aName">Audio Name</string>
+    <string name="aPlayPause">Play / Pause</string>
+    <string name="encAud">Encode Audio</string>
+    <string name="aDl">Download Audio</string>
+
+
+    <!-- Image Decode -->
+    <string name="decPI">Pick Image</string>
+    <string name="decImage">Decode Image</string>
+    <string name="imageDec">Decoded:</string>
+    <string name="decET">Decoded Message</string>
+
+
+    <!-- Menu -->
+    <string name="shareFile">Share File</string>
+
 
 </resources>

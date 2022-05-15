@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="PI">Pick Image</string>
-    <string name="cam">Camera</string>
-    <string name="msgEn">Message to encode :</string>
-    <string name="msgET">Type Message here</string>
-    <string name="enBtn">Encode Image</string>
-    <string name="dlBtn">Download Image</string>
-    <string name="logBtn">Logout</string>
-    <string name="imgBtn">Image Encode</string>
-    <string name="audBtn">Audio Encode</string>
-    <string name="vidBtn">Video Encode</string>
-    <string name="registerBtn">Register</string>
-    <string name="memRegTV">Already a member? Login here</string>
+
+    <string name="title_activity_stego_image_decode">StegoImageDecode</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_image_dash">ImageDash</string>
+
+    <string name="PI">Bild auswählen</string>
+    <string name="cam">Kamera</string>
+    <string name="msgEn">Zu verschlüsselnde Nachricht:</string>
+    <string name="msgET">Geben Sie hier Nachricht ein</string>
+    <string name="enBtn">Bild codieren</string>
+    <string name="dlBtn">Bild herunterladen</string>
+    <string name="logBtn">Ausloggen</string>
+    <string name="imgBtn">Bildcodierung</string>
+    <string name="audBtn">Audiokodierung</string>
+    <string name="vidBtn">Videocodierung</string>
+    <string name="registerBtn">Registrieren</string>
+    <string name="memRegTV">Schon ein Mitglied? Hier anmelden</string>
     <string name="regName">Name</string>
 
     <!-- Main Activity -->
@@ -23,4 +36,47 @@
     <string name="forPassTV">Passwort vergessen</string>
     <string name="clBtn">Sprache ändern</string>
     <string name="StegTitle">StegSavvy</string>
+
+    <!-- Contact us page-->
+    <string name="conTitle">Kontaktieren Sie uns</string>
+    <string name="eName">Gib deinen Namen ein</string>
+    <string name="cEmail">Bestätige deine E-Mail</string>
+    <string name="cMessage">Geben Sie hier Nachricht ein</string>
+    <string name="cSend">Schicken</string>
+
+    <!-- DashBoard -->
+    <string name="dI">Bild</string>
+    <string name="imDec">Bilddekodierung</string>
+
+    <!-- Forgot Password Page-->
+    <string name="prEmail">Geben sie ihre E-Mailadresse ein</string>
+    <string name="prReset">Passwort zurücksetzen</string>
+    <string name="cancel">Absagen</string>
+
+    <!-- Share Page -->
+    <string name="sShare">Teilen</string>
+    <string name="sAttach">Anhang</string>
+
+    <!-- Audio Encode -->
+    <string name="aPick">Wählen Sie Audiodatei</string>
+    <string name="aRec">Audiorecorder</string>
+    <string name="aName">Audioname</string>
+    <string name="aPlayPause">Spielpause</string>
+    <string name="encAud">Audio kodieren</string>
+    <string name="aDl">Audio herunterladen</string>
+
+    <!-- Image Decode -->
+    <string name="decPI">Bild auswählen</string>
+    <string name="decImage">Bild dekodieren</string>
+    <string name="imageDec">Entschlüsselt:</string>
+    <string name="decET">Entschlüsselte Nachricht</string>
+
+    <!-- Video Stego Page-->
+    <string name="vidPick">Wählen Sie Video aus</string>
+    <string name="encVid">Video codieren</string>
+    <string name="vidDl">Video herunterladen</string>
+
+    <!-- Menu -->
+    <string name="shareFile">Datei teilen</string>
+
 </resources>

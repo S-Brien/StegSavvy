@@ -1,18 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="PI">Pick Image</string>
-    <string name="cam">Camera</string>
-    <string name="msgEn">Message to encode :</string>
-    <string name="msgET">Type Message here</string>
-    <string name="enBtn">Encode Image</string>
-    <string name="dlBtn">Download Image</string>
-    <string name="logBtn">Logout</string>
-    <string name="imgBtn">Image Encode</string>
-    <string name="audBtn">Audio Encode</string>
-    <string name="vidBtn">Video Encode</string>
-    <string name="registerBtn">Register</string>
-    <string name="memRegTV">Already a member? Login here</string>
-    <string name="regName">Name</string>
+
+    <string name="title_activity_stego_image_decode">StegoImageDecode</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_image_dash">ImageDash</string>
+
+    <string name="PI">ছবি বাছুন</string>
+    <string name="cam">ক্যামেরা</string>
+    <string name="msgEn">এনকোড করার জন্য বার্তা:</string>
+    <string name="msgET">এখানে মেসেজ টাইপ করুন</string>
+    <string name="enBtn">ছবি এনকোড করুন</string>
+    <string name="dlBtn">ছবি ডাউনলোড করুন</string>
+    <string name="logBtn">প্রস্থান</string>
+    <string name="imgBtn">ইমেজ এনকোড</string>
+    <string name="audBtn">অডিও এনকোড</string>
+    <string name="vidBtn">ভিডিও এনকোড</string>
+    <string name="registerBtn">নিবন্ধন</string>
+    <string name="memRegTV">ইতোমধ্যে একজন সদস্য? এখানে লগইন করুন</string>
+    <string name="regName">নাম</string>
 
 
     <!-- Main Activity -->
@@ -24,4 +37,46 @@
     <string name="forPassTV">পাসওয়ার্ড ভুলে গেছেন</string>
     <string name="clBtn">ভাষা পরিবর্তন করুন</string>
     <string name="StegTitle">StegSavvy</string>
+
+    <!-- Contact us page-->
+    <string name="conTitle">আমাদের সাথে যোগাযোগ করুন</string>
+    <string name="eName">আপনার নাম প্রবেশ করুন</string>
+    <string name="cEmail">আপনার ইমেইল নিশ্চিত করুন</string>
+    <string name="cMessage">এখানে বার্তা টাইপ করুন</string>
+    <string name="cSend">পাঠান</string>
+
+    <!-- DashBoard -->
+    <string name="dI">ছবি</string>
+    <string name="imDec">ইমেজ ডিকোড</string>
+
+    <!-- Forgot Password Page-->
+    <string name="prEmail">তোমার ই - মেইল ​​ঠিকানা লেখো</string>
+    <string name="prReset">পাসওয়ার্ড রিসেট করুন</string>
+    <string name="cancel">বাতিল করুন</string>
+
+    <!-- Share Page -->
+    <string name="sShare">শেয়ার করুন</string>
+    <string name="sAttach">সংযুক্তি</string>
+
+    <!-- Audio Encode -->
+    <string name="aPick">অডিও ফাইল বাছাই করুন</string>
+    <string name="aRec">অডিও রেকর্ডার</string>
+    <string name="aName">অডিও নাম</string>
+    <string name="aPlayPause">খেলার বিরতি</string>
+    <string name="encAud">অডিও এনকোড করুন</string>
+    <string name="aDl">অডিও ডাউনলোড করুন</string>
+
+    <!-- Image Decode -->
+    <string name="decPI">ছবি বাছুন</string>
+    <string name="decImage">ছবি ডিকোড করুন</string>
+    <string name="imageDec">ডিকোড করা:</string>
+    <string name="decET">ডিকোডেড বার্তা</string>
+
+    <!-- Video Stego Page-->
+    <string name="vidPick">ভিডিও বাছাই করুন</string>
+    <string name="encVid">ভিডিও এনকোড করুন</string>
+    <string name="vidDl">ভিডিও ডাউনলোড</string>
+
+    <!-- Menu -->
+    <string name="shareFile">ফাইল শেয়ার করুন</string>
 </resources>

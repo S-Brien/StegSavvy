@@ -58,8 +58,8 @@ public class ImageSteganography {
 
     }
 
-    public ImageSteganography(String secret_key, Bitmap image) {
-        this.secret_key = convertKeyTo128bit(secret_key);
+    public ImageSteganography(Bitmap image) {
+        //this.secret_key = convertKeyTo128bit(secret_key);
         this.image = image;
 
         this.encoded = false;
@@ -71,6 +71,7 @@ public class ImageSteganography {
         this.encoded_image = Bitmap.createBitmap(600, 600, Bitmap.Config.ARGB_8888);
         this.encrypted_zip = new byte[0];
     }
+
 
     private static String encryptMessage(String message, String secret_key) {
         Log.d(TAG, "Message : " + message);
@@ -93,18 +94,18 @@ public class ImageSteganography {
         return encrypted_message;
     }
 
-    public static String decryptMessage(String message, String secret_key) {
+    public static String decryptMessage(String message) {
         String decrypted_message = "";
         if (message != null) {
-            if (!Utility.isStringEmpty(secret_key)) {
-                try {
-                    decrypted_message = Crypto.decryptMessage(message, secret_key);
-                } catch (Exception e) {
-                    Log.d(TAG, "Error : " + e.getMessage() + " , may be due to wrong key.");
-                }
-            } else {
-                decrypted_message = message;
-            }
+//            if (!Utility.isStringEmpty(secret_key)) {
+//                try {
+//                    decrypted_message = Crypto.decryptMessage(message, secret_key);
+//                } catch (Exception e) {
+//                    Log.d(TAG, "Error : " + e.getMessage() + " , may be due to wrong key.");
+//                }
+//            } else {
+//                decrypted_message = message;
+//            }
         }
 
         return decrypted_message;
