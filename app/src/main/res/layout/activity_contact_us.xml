@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StegoContactUs"
+    android:background="#e5e4e2">
+
+    <TextView
+        android:id="@+id/tView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/conTitle"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="25dp"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:layout_marginBottom="650dp"/>
+
+    <EditText
+        android:id="@+id/eName"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/eName"
+        android:layout_marginTop="95dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="98dp"
+        />
+
+    <EditText
+        android:id="@+id/conEmail"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="164dp"
+        android:ems="10"
+        android:hint="@string/cEmail"
+        android:inputType="textEmailAddress"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/eMsg"
+        android:layout_width="330dp"
+        android:layout_height="248dp"
+        android:layout_marginTop="240dp"
+        android:ems="10"
+        android:hint="@string/cMessage"
+        android:inputType="textMultiLine"
+        android:textAlignment="center"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/conSend"
+        android:layout_width="147dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="512dp"
+        android:background="#69F0AE"
+        android:text="@string/cSend"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

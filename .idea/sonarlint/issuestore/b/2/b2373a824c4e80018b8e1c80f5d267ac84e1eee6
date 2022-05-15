@@ -1,0 +1,16 @@
+
+a
+java:S1192/"FDefine a constant instead of duplicating this literal "Gmail" 4 times.(Í‘ú¯øÿÿÿÿ
+7
+java:S1170"!Make this final field static too.(¨ø‡Á
+7
+java:S1170"!Make this final field static too.(Ä‰Þ¾
+7
+java:S1170"!Make this final field static too.(Ùâì¾
+7
+java:S1170"!Make this final field static too.(³§¬ï
+¥
+java:S11302"‰Remove the declaration of thrown exception 'javax.mail.internet.AddressException' which is a subclass of 'javax.mail.MessagingException'.(¹Á¾Éøÿÿÿÿ
+c	java:S100D"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”­¬é
+ 
+java:S1130D"‰Remove the declaration of thrown exception 'javax.mail.internet.AddressException' which is a subclass of 'javax.mail.MessagingException'.(”­¬é

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id ="@+id/logoutMenu"
+        android:orderInCategory ="100"
+        app:showAsAction ="never"
+        android:title ="@string/logBtn">
+    </item>
+
+    <item
+        android:id ="@+id/contactusMenu"
+        android:orderInCategory ="200"
+        app:showAsAction ="never"
+        android:title ="@string/conTitle">
+    </item>
+
+    <item
+        android:id ="@+id/changeLang"
+        android:orderInCategory ="300"
+        app:showAsAction ="never"
+        android:title ="@string/clBtn">
+    </item>
+
+    <item
+        android:id ="@+id/share"
+        android:orderInCategory ="300"
+        app:showAsAction ="never"
+        android:title ="@string/shareFile">
+    </item>
+
+</menu>
